@@ -28,4 +28,6 @@ public:
     //~List();
 };
 
+#include "list.cpp"
+
 #endif //LABOR2_LIST_H
