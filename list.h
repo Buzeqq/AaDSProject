@@ -8,8 +8,10 @@
 
 template<class T>
 class List {
-    T content;
-    T* next;
+    struct Node {
+        Node* next;
+
+    };
 public:
     List();
 
